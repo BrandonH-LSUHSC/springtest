@@ -22,7 +22,7 @@ CREATE TABLE `test_companies` (
   `address` varchar(64) NOT NULL,
   `city` varchar(32) NOT NULL,
   `state` char(2) NOT NULL,
-  `zip` varchar(10) NOT NULL
+  `zip` char(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -37,7 +37,7 @@ CREATE TABLE `test_employees` (
   `address` varchar(64) NOT NULL,
   `city` varchar(32) NOT NULL,
   `state` char(2) NOT NULL,
-  `zip` varchar(10) NOT NULL,
+  `zip` char(5) NOT NULL,
   `company` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
